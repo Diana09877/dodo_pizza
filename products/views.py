@@ -2,7 +2,6 @@ from products.models import Pizza
 from products.serializers import PizzaSerializer, PizzaDetailSerializer
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from rest_framework import status
 from .models import Drink
 from .serializers import DrinkSerializer, DrinkDetailSerializer
 
